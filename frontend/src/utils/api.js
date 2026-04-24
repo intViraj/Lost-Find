@@ -97,7 +97,7 @@ export async function getUserById(userId) {
       ? { Authorization: `Bearer ${token}` }
       : {};
 
-    const res = await apiClient.get(`users/${userId}`, { headers });
+    const res = await apiClient.get(`/user/users/${userId}`, { headers });
     return res.data;
   } catch (err) {
     console.error("Error fetching user:", err);
