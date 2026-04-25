@@ -37,7 +37,7 @@ const RightPanel = () => {
         <h3 className="font-bold text-lg mb-4">Community Stats</h3>
         <div className="grid grid-cols-2 gap-4">
             <div className="text-center bg-gray-100 p-4 rounded-lg"><p className="text-2xl font-bold text-blue-600">459</p><p className="text-xs text-gray-500">Items Found</p></div>
-            <div className="text-center bg-gray-100 p-4 rounded-lg"><p className="text-2xl font-bold text-blue-600">89</p><p className="text-xs text-gray-500">Active Users</p></div>
+            <div className="text-center bg-gray-100 p-4 rounded-lg"><p className="text-2xl font-bold text-blue-600">809</p><p className="text-xs text-gray-500">Active Users</p></div>
             <div className="text-center bg-gray-100 p-4 rounded-lg"><p className="text-2xl font-bold text-blue-600">432</p><p className="text-xs text-gray-500">Success Stories</p></div>
             <div className="text-center bg-gray-100 p-4 rounded-lg"><p className="text-2xl font-bold text-blue-600">0</p><p className="text-xs text-gray-500">Today's Posts</p></div>
         </div>
